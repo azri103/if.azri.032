@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Informatika Unjani</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- my css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container py-3">
+        <a class="navbar-brand align-items-center" href="#">
+          <img src="assets/svg/logo-full.svg" alt="Informatika Unjani" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto fw-semibold">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#product">Product</a>
+            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END Navbar -->
+
+    <!-- section slider start -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner position-relative">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/png/hero-img1.png" class="d-block h-100" alt="..." />
+        </div>
+        <div class="carousel-item background" data-bs-interval="2000">
+          <img src="assets/png/Background 1.png" class="d-block" alt="..." />
+        </div>
+        <div
+          class="carousel-caption position-absolute top-50 translate-middle-y"
+        >
+          <h1>SELAMAT DATANG DI WEBSITE</h1>
+          <h1>INFORMATIKA UNJANI</h1>
+          <a class="btn btn-outline-warning px-4 mt-3" href="#about">
+            About Us
+          </a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- section slider end -->
+
+    <!-- section about start -->
+    <section id="about">
+      <div class="container">
+        <div class="title-section text-center mx-auto">
+          <h1>About</h1>
+        </div>
+        <div class="about-container row">
+          <img src="assets/png/about-us.png" alt="" class="col-lg-6" />
+          <div class="col-lg-6 py-3 ps-4">
+            <h2 class="my-3">Teknik Informatika</h2>
+            <p>
+              Teknik Informatika Unjani adalah salah satu prodi yang ada di
+              Fakultas Sains dan Informatika Universitas Jenderal Achmad Yani
+              yang sudah ada lebih dari 1 dekade, Kami memiliki beberapa layanan
+              dan produk yang bisa membantu memenuhi kebutuhan sehari - hari
+              yang berhubungan dengan teknologi seperti pemasangan Wi-Fi,
+              Instalasi jaringan (LAN MAN WAN), pemasangan CCTV, Pembuatan Web +
+              Hosting dan Service Komputer/Laptop.
+            </p>
+            <p>
+              Layanan kami sudah ada sejak 5 tahun terakhir dan banyak yang
+              sudah berlangganan menggunakan jasa dari kami yang mudah, efektif,
+              dan terjangkau. pelanggan kami sudah tersebar se-Indonesia dan
+              masuk 10 besar nominasi Badan Usaha Teknologi Kreatif dibawah
+              Naungan Perguruan Tinggi yang dinobatkan oleh pemerintah.
+            </p>
+            <a href="#product" class="btn btn-gray rounded-0 mt-2 shadow-lg"
+              >See Our Product</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section about end -->
+
+    <!-- section product start -->
+    <section id="product" class="bg-gray">
+      <div class="container">
+        <div class="title-section text-center mx-auto">
+          <h1>Our Product</h1>
+        </div>
+        <div class="row w-100 mx-auto">
+          <div
+            class="col-lg-3 border border-3 border-gray col-md-6 cards text-center px-3"
+          >
+            <img src="/assets/svg/Wi-Fi.svg" alt="wifi" class="mb-2" />
+            <h4 class="mb-3">Pasang Wi-Fi<br />(IF Wireless)</h4>
+            <p class="fs-5">
+              Kami melayani pemasangan Wi-Fi pribadi maupun instansi dengan
+              kecepatan bandwith 1Gbps - 50Gbps dengan pilihan pembayaran
+              perbulan dan pertahun, dan menjamin kemanan jaringan.
+            </p>
+          </div>
+          <div
+            class="col-lg-3 border border-3 border-gray col-md-6 cards text-center px-3"
+          >
+            <img src="assets/svg/cctv.svg" alt="cctv" class="mb-2" />
+            <h4 class="mb-3">Pasang CCTV<br />(IF Pantau)</h4>
+            <p class="fs-5">
+              Kami melayani pemasangan CCTV wireless dan wired dengan memberikan
+              pilihan paket kepada konsumen, menjamin kejernihan hasil CCTV dan
+              sistem kemanannya.
+            </p>
+          </div>
+          <div
+            class="col-lg-3 border border-3 border-gray col-md-6 cards text-center px-3"
+          >
+            <img src="assets/svg/web.svg" alt="website" class="mb-4" />
+            <h4 class="mb-3">Pembuatan website<br />(IF Hoster)</h4>
+            <p class="fs-5">
+              Kami melayani pembuatan WEB dan Hosting kepada konsumen dengan
+              memberikan requirement yang standar dengan spesifikasi dan
+              keamanan yang terjamin.
+            </p>
+          </div>
+          <div
+            class="col-lg-3 border border-3 border-gray col-md-6 cards text-center px-3"
+          >
+            <img src="assets/svg/lan.svg" alt="Lan" class="mb-2" />
+            <h4 class="mb-3">Instalasi Jaringan<br />(IF Net)</h4>
+            <p class="fs-5">
+              Kami melayani instalasi jaringan baik menggunakan UTP maupun Fiber
+              Optic yang berkecepatan rata rata hingga 120Gbps dengan keamanan
+              yang terjamin.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section product end-->
+
+    <!-- section gallery start -->
+    <section id="gallery">
+      <div class="container">
+        <div class="title-section text-center mx-auto">
+          <h1>Gallery</h1>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <img
+                  src="assets/png/web.webp"
+                  alt="Layanan pembuatan website"
+                  class="img-layout"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="assets/png/pasang wifi.jpg"
+                  alt="Layanan pemasangan website"
+                  class="img-layout"
+                />
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-md-12">
+                <img
+                  src="assets/png/PASANG-CCTV-PATI.jpg"
+                  alt="Layanan pemasangan cctv"
+                  class="img-layout"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="assets/png/LAN MAN WAN.webp"
+              alt="Layanan pemasangan lan"
+              class="img-layout"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section gallery end -->
+
+    <!-- footer start -->
+    <footer
+      id="contacts"
+      class="w-100 p-5 m-0 d-flex align-items-center justify-content-center"
+    >
+      <div class="icons d-flex gap-5 align-items-center">
+        <a href="https://wa.me/6289536117336">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="38"
+            height="38"
+            fill="#d9d9d9"
+            class="bi bi-whatsapp"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+            />
+          </svg>
+          <span class="text-light contact-call">+6289536117336</span>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="38"
+            height="38"
+            fill="#d9d9d9"
+            class="bi bi-envelope-paper"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"
+            />
+          </svg>
+          <span class="contact-call text-light">if.unjani.corp@gmail.com</span>
+        </a>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
